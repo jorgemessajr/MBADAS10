@@ -3,7 +3,7 @@ library(C50)
 library(gmodels)
 library(caret)
 
-heart <- read.csv("heart.csv")
+heart <- read.csv("./Atividade 4/heart.csv")
 heart$OUTPUT <- as.factor(heart$OUTPUT)
 
 set.seed(12345)
